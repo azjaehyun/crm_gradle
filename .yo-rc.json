@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "co.kr.crm"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "crm_jhipster",
+    "packageName": "co.kr.crm",
+    "packageFolder": "co/kr/crm",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODllMmM2NDU5ZmM4MDgxNWY5ZGU5MGU2NTk0ZWI4MGNhNjVkODRlYmIwYzE1MGJjMmNiNzQ4NDBmMWFmNzczMzA1MmJlOTQyMTQ4NGE3NmQ3YWYyZWQ3MmY1OGE4MWJlNzUzNWVmYWQ5MjY2ODhmNzkxYTM4OTc3NGIxMGY2ZDU=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "react",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1607860955369,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "blueprints": [],
+    "reactive": true
+  }
+}
