@@ -12,3 +12,10 @@ services:
           - --collation-server=utf8mb4_unicode_ci 
      volumes: 
           - ./db_data_docker:/var/lib/mysql
+
+#$ mysql -u root -p
+#Enter password: qwerqwer123
+#mysql 계정 생성
+#mysql> CREATE USER 'wool'@'%' IDENTIFIED BY 'qwerqwer123';
+#mysql> GRANT ALL PRIVILEGES ON *.* TO 'wool'@'%';
+#mysql> flush privileges;          
